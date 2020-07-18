@@ -11,59 +11,6 @@ body {
     grid-template-rows: 1fr;
 }
 
-/*Nav Styles*/
-.nav-wrapper{
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-}
-
-.left-stack{
-    display: flex;
-    justify-content: space-between;
-    padding: 2px;
-
-    
-}
-
-.nav-wrapper > .left-stack > div{
-    margin-right: 4px;
-    font-size: 0.8em;
-    text-transform: uppercase;
-
-    
-}
-
-.right-stack{
-    display: inline;
-    justify-content: space-between;
-    padding: 2px;
-    
-}
-
-
-.nav-link a {
-    color: rgb(168, 165, 164);
-    text-decoration: none;
-
-
-
-}
-
-.nav-link a:hover {
-    border-bottom: 1px solid black;
-    color: black;
-}
-
-.nav-wrapper > .right-stack > .namespace > div{
-    display: flex;
-    justify-content: stretch;
-    padding: 1px;
-    font-size: xx-small;
-    
-    
-}
-
 /*Portfolio Styles*/
 .presentation-wrapper{
     display: grid;
