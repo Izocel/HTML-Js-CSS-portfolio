@@ -1,0 +1,69 @@
+
+
+/*Nav Styles*/
+.nav-wrapper{
+    background-color: rgb(109, 109, 109);
+    color:lightsalmon;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    align-items: center;
+}
+
+.left-stack{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-wrapper > .left-stack > div{
+    margin-right: 4px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+
+}
+
+.right-stack{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.right-stack > .nav-logo-link img{
+    margin-right: 7px;
+    display: flex;
+
+}
+
+.nav-logo-link{
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-link a {
+    color: lightblue;
+    text-decoration: none;
+
+}
+
+
+
+.nav-link a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgb(250, 250, 250);
+}
+
+.nav-wrapper > .right-stack > .namespace > div{
+    display: flex;
+    justify-content: stretch;
+    padding-top: 3px;
+    font-size: xx-small;
+}
